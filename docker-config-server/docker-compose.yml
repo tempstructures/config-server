@@ -1,0 +1,14 @@
+version: '3'
+services:
+  app:
+    container_name: bank-account-service
+    image: bank-account-service
+    ports:
+      - '8080:8080'
+    links:
+      - config-server:config-server
+  config-server:
+    container_name: config-server
+    image: config-server
+    ports:
+      - '8888:8888'
