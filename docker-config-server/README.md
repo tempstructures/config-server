@@ -5,15 +5,15 @@
 
 ## config-server 
 
-Place jar file of project config-server in this directory to create image
-Run Dockerfile to create image
+>Contain jar file of project config-server in this directory to create image
+>Run Dockerfile to create image
 ```
 docker build -t “config-server:Dockerfile” .
 ```
 
 ## bank-account-service
-Contain jar file of project bank-account-service in this directory to create image
-Run Dockerfile to create image
+>Contain jar file of project bank-account-service in this directory to create image
+>Run Dockerfile to create image
 ```
 docker build -t “bank-account-service:Dockerfile” .
 ```
